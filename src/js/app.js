@@ -35,7 +35,8 @@ function render(variables = {}) {
           <img src="${variables.avatarURL}" class="photo" />
           <h1>${variables.name ? variables.name : ""} ${variables.lastName ? variables.lastName : ""}</h1>
           <h2>${variables.role ? variables.role : ''}</h2>
-          <h3>${variables.country ? variables.country : ''} ${variables.city ? variables.city : ''}</h3>
+          <h3>${variables.city ? variables.city : ''}</h3>
+          <h3>${variables.country ? variables.country : ''}</h3>
           <ul class="${variables.socialMediaPosition}">
             <li><a href="${variables.twitter ? variables.twitter : 'https://twitter.com/4geeksacademy'}"><i class="fab fa-twitter"></i></a></li>
             <li><a href="${variables.github ? variables.github : 'https://github.com/4geeksacademy'}"><i class="fab fa-github"></i></a></li>
